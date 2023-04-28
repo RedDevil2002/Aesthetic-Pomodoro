@@ -16,6 +16,7 @@
 		868EEEEF29FB97E100944454 /* Aesthetic_PomodoroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868EEEEE29FB97E100944454 /* Aesthetic_PomodoroTests.swift */; };
 		868EEEF929FB97E100944454 /* Aesthetic_PomodoroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868EEEF829FB97E100944454 /* Aesthetic_PomodoroUITests.swift */; };
 		868EEEFB29FB97E100944454 /* Aesthetic_PomodoroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868EEEFA29FB97E100944454 /* Aesthetic_PomodoroUITestsLaunchTests.swift */; };
+		868EEF0829FB984600944454 /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868EEF0729FB984600944454 /* SessionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		868EEEF429FB97E100944454 /* Aesthetic PomodoroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aesthetic PomodoroUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		868EEEF829FB97E100944454 /* Aesthetic_PomodoroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aesthetic_PomodoroUITests.swift; sourceTree = "<group>"; };
 		868EEEFA29FB97E100944454 /* Aesthetic_PomodoroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aesthetic_PomodoroUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		868EEF0729FB984600944454 /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				868EEED729FB97E000944454 /* Aesthetic_PomodoroApp.swift */,
 				868EEED929FB97E000944454 /* ContentView.swift */,
+				868EEF0729FB984600944454 /* SessionView.swift */,
 				868EEEDB29FB97E100944454 /* Assets.xcassets */,
 				868EEEE029FB97E100944454 /* Persistence.swift */,
 				868EEEE529FB97E100944454 /* Aesthetic_Pomodoro.entitlements */,
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				868EEF0829FB984600944454 /* SessionView.swift in Sources */,
 				868EEEE129FB97E100944454 /* Persistence.swift in Sources */,
 				868EEEDA29FB97E000944454 /* ContentView.swift in Sources */,
 				868EEED829FB97E000944454 /* Aesthetic_PomodoroApp.swift in Sources */,
@@ -432,6 +436,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -459,6 +464,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

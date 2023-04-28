@@ -12,9 +12,18 @@ struct Aesthetic_PomodoroApp: App {
     let persistenceController = PersistenceController.shared
 
     var body: some Scene {
-        WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+       
+        MenuBarExtra("Aesthetic", systemImage: "timer.square") {
+            // SESSION
+            SessionView(title: "👨🏻‍💻 iOS Development")
+            
+            // QUIT
+            Button("Quit") {
+                NSApplication.shared.terminate(nil)
+            }
+            .keyboardShortcut("q")
+            
         }
+        .menuBarExtraStyle(.window)
     }
 }
